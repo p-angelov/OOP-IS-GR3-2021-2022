@@ -98,6 +98,9 @@ void getAllBooksByAuthorName(BookStore &store, const char *authorName)
 
 int main()
 {
+    BookStore store1;
+    initializeBookstore(store1);
+    getAllBooks(store1);
 
     return 0;
 }
